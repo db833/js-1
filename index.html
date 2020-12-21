@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JS-1</title>
+        <meta charset="UTF-8"/>
+    </head>
+    <body>
+        <script>
+            let input = prompt(`What's the 'official' name of Javascript?`);
+            if (input ==`ECMAScript`) {
+                alert(`Yes`);
+            } else {
+                alert(`You don't know? "ECMAScript"!`);
+            }
+
+            let login = prompt(`Login`);
+            let message = (login == `Employee`) ? `Hello` : 
+                (login == `Director`) ? `Greetings` : 
+                (login == ``) ? `No login` : ``;
+            alert(message);
+
+        </script>
+    </body>
+</html>
